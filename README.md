@@ -21,3 +21,7 @@ To run:
 TODO:
 * The hue light is hard coded as light 2. Should be changed to allow user to choose.
 * Pretty much no error handling is included.  
+
+Keypress credit to:
+Daniel Beard
+ - http://danielbeard.wordpress.com/2010/10/29/listening-for-global-keypresses-in-osx/
