@@ -23,5 +23,5 @@ TODO:
 * Pretty much no error handling is included.  
 
 Keypress credit to:
- Daniel Beard
+* Daniel Beard
  - http://danielbeard.wordpress.com/2010/10/29/listening-for-global-keypresses-in-osx/
