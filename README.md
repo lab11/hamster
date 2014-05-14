@@ -14,9 +14,9 @@ What you need:
 
 To run:
 * Compile key_press.c 
- gcc -Wall -o key_press key_press.c -framework ApplicationServices
+   - gcc -Wall -o key_press key_press.c -framework ApplicationServices
 * Because of os-x security restrictions, the key_press script will only work as super user. Read key_press.c if you don't trust it before running. 
- sudo python main.py
+   - sudo python main.py
 
 TODO:
 * The hue light is hard coded as light 2. Should be changed to allow user to choose.
