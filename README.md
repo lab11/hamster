@@ -1,7 +1,7 @@
-type-brite
+Hamster
 ==========
 
-A system that changes the brightness of a hue light depending on how fast you type
+A system that changes the brightness of a hue light depending on how fast you type, just like a hamster running on a wheel.
 
 What you need:
 * mac osx 
