@@ -8,10 +8,13 @@ timeout_val = 1 #seconds before timeout
 max_brightness = 254 #max value of lamp given by phue
 last_time = 0 
 
+bulb_name = sys.argv[1]
+
 # Connect to hue
 # TODO: make this not hardcoded
 lights = hue.hue_connect()
-light = lights[1]
+light = [l for l in lights if l.name == bulb_name][0]
+
 
 def set_brightness(brightness):
   light.brightness = brightness

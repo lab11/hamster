@@ -25,8 +25,15 @@ def set_yellow(light):
   light.xy = [1,1]
 
 def hue_connect():
-  bridge = Bridge('4908hue')
-  bridge.connect()
+  not_connected = True
+  while(not_connected):
+    try:
+      bridge = Bridge('4908hue.eecs.umich.edu')
+      bridge.connect()
+      not_connected = False
+    except:
+      print("\nGo push the button on the hub to authorize this program. I'll wait.\n")
+      raw_input("Hit enter when you're done. ")
   all_lights = bridge.get_light_objects()
   return all_lights
 
