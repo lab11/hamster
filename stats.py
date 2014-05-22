@@ -2,10 +2,10 @@ import sys, sched, time, hue, threading
 from threading import Timer
 
 #Globals
-window = 3 #num in avg
+window = 2 #num in avg
 times = [] #times to be averages
-timeout_val = 1 #seconds before timeout
-max_brightness = 100 #max value of lamp given by phue
+timeout_val = 0.2 #seconds before timeout
+max_brightness = 200 #max value of lamp given by phue
 last_time = 0 
 
 bridge = None
